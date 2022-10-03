@@ -1,0 +1,57 @@
+{
+  "$id": "drupalImage_drupalImage",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "drupalImage_image",
+  "displayName": "Drupal Image",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "primaryPhoto"
+        }
+      ]
+    },
+    {
+      "displayName": "Drupal Image Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "drupalImage_createdDate"
+        },
+        {
+          "id": "drupalImage_creator"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "drupalImage_image",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Drupal Image",
+  "entityType": "drupalImage_image",
+  "fields": [
+    "drupalImage_createdDate",
+    "drupalImage_creator",
+    "primaryPhoto"
+  ],
+  "required": []
+}

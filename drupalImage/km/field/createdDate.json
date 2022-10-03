@@ -1,0 +1,11 @@
+{
+  "$id": "drupalImage_createdDate",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Created Date",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "dateType": {}
+  },
+  "typeId": "date"
+}
