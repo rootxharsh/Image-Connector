@@ -86,20 +86,6 @@
       }
     },
     {
-      "extractText": {
-        "inputHeader": "Updated Date",
-        "newColumnHeader": "Updated Date - Formatted",
-        "extractOperation": "ALL_TEXT_BEFORE",
-        "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
-        "valueToFind": {
-          "plainText": {
-            "value": "T",
-            "ignoreCase": false
-          }
-        }
-      }
-    },
-    {
       "function": {
         "inputHeaders": {
           "headers": [
