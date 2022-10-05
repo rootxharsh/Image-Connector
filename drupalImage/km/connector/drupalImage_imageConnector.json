@@ -106,7 +106,7 @@
             "Image URL"
           ]
         },
-        "plugin": "extractFileUrl",
+        "plugin": "drupalImage_extractFileUrl",
         "function": "extractFileUrl"
       }
     },
@@ -117,7 +117,7 @@
             "Creator"
           ]
         },
-        "plugin": "getUser",
+        "plugin": "drupalImage_getUser",
         "function": "getUser"
       }
     }
