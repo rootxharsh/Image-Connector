@@ -59,20 +59,6 @@
   "transforms": [
     {
       "extractText": {
-        "inputHeader": "Name",
-        "newColumnHeader": "Name - Formatted",
-        "extractOperation": "ALL_TEXT_BEFORE",
-        "extractFrom": "LAST_INSTANCE_MATCHING_TEXT",
-        "valueToFind": {
-          "plainText": {
-            "value": ".",
-            "ignoreCase": false
-          }
-        }
-      }
-    },
-    {
-      "extractText": {
         "inputHeader": "Created Date",
         "newColumnHeader": "Created Date - Formatted",
         "extractOperation": "ALL_TEXT_BEFORE",
@@ -133,7 +119,7 @@
     },
     {
       "field": "name",
-      "header": "Name - Formatted",
+      "header": "Name",
       "subfieldPath": []
     },
     {
