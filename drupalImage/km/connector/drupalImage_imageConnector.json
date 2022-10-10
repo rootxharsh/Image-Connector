@@ -51,6 +51,11 @@
       },
       {
         "type": "JSON",
+        "header": "Landing Page URL",
+        "path": "relationships.field_media_image.data.id"
+      },
+      {
+        "type": "JSON",
         "header": "Creator",
         "path": "relationships.uid.data.id"
       }
@@ -75,7 +80,8 @@
       "function": {
         "inputHeaders": {
           "headers": [
-            "Image URL"
+            "Image URL",
+            "Landing Page URL"
           ]
         },
         "plugin": "drupalImage_extractFileUrl",
@@ -111,6 +117,11 @@
           "name": "url"
         }
       ]
+    },
+    {
+      "field": "landingPageUrl",
+      "header": "Landing Page URL",
+      "subfieldPath": []
     },
     {
       "field": "drupalImage_creator",
