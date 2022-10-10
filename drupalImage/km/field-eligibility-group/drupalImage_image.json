@@ -6,7 +6,8 @@
   "fields": [
     "drupalImage_createdDate",
     "drupalImage_creator",
-    "primaryPhoto"
+    "primaryPhoto",
+    "landingPageUrl"
   ],
   "required": []
 }
