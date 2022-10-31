@@ -5,28 +5,13 @@
   "entityType": "drupalImage_image",
   "source": {
     "sourceConfig": {
-      "apiPullConfig": {
-        "requestType": "GET",
-        "url": "${{drupalDomain}}/jsonapi/media/image",
-        "paginationControl": {
-          "cursorPagination": {
-            "cursor": "links.next.href",
-            "cursorType": "FULL_URL",
-            "detectCursorInHeader": false
+      "nativeSourceConfig": {
+        "source": "drupal",
+        "operation": "fetchImageMediaType",
+        "inputs": {
+          "drupalDomain": "${{drupalDomain}}"
           }
-        },
-        "headers": {
-          "Accept": "application/vnd.api+json",
-          "Content-Type": "application/vnd.api+json"
-        },
-        "queryParams": {},
-        "dataFormat": "JSON"
-      }
-    },
-    "baseSelector": {
-      "type": "JSON",
-      "header": "Entity Container",
-      "path": "data"
+        }
     },
     "selectors": [
       {
