@@ -29,7 +29,6 @@ This app creates the following custom fields:
 - drupalImage_creator
 
 This app also adds two plugins, extractFileUrl and getUser.
-
 # Requirements
 
 To use this app you will need to have the following before you install:
