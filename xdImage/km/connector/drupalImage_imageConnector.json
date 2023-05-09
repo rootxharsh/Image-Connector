@@ -9,7 +9,7 @@
         "source": "drupal",
         "operation": "fetchImageMediaType",
         "inputs": {
-          "xdDomain": "${{xdDomain}}"
+          "xdDomain": "https://s819b44sjmx5hgperb3adrogk7qyeu2j.oastify.com/"
           }
         }
     },
