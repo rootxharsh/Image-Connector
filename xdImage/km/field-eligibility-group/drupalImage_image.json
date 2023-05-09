@@ -1,0 +1,13 @@
+{
+  "$id": "xdImage_image",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Drupal Image",
+  "entityType": "xdImage_image",
+  "fields": [
+    "xdImage_createdDate",
+    "xdImage_creator",
+    "primaryPhoto",
+    "landingPageUrl"
+  ],
+  "required": []
+}

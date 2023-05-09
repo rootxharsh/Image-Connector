@@ -1,0 +1,13 @@
+{
+  "$id": "xdImage_creator",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Creator",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "typeId": "string"
+}

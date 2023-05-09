@@ -16,17 +16,17 @@ Drupal data even further to power Yext search experiences!
 
 This app creates the following custom connectors:
 
-- drupalImage_imageConnector
+- xdImage_imageConnector
 
 This app creates the following custom entity type that correlates to the custom
 connector:
 
-- drupalImage_image
+- xdImage_image
 
 This app creates the following custom fields:
 
-- drupalImage_createdDate
-- drupalImage_creator
+- xdImage_createdDate
+- xdImage_creator
 
 This app also adds two plugins, extractFileUrl and getUser.
 # Requirements
